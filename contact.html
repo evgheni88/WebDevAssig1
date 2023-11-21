@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Design and Planning, Construction Services | Novus Construction Ltd Dublin Ireland</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/owm8tzw.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d8cdef92ac.js" crossorigin="anonymous"></script>
+ </head>
+
+<body>
+    <!-- nav -->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">  
+        <div class="nav-header">
+          <div class="nav-title">
+            <a href="index.html"><img src="images/logo.png" alt="Novus Construction logo"></a>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>        
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about-us.html">About</a> 
+            <div class="dropdown">
+                <div class="dropdown-toggle">
+            <a href="services.html" class="dropdown-btn">Services</a>
+            <label for="services-dropdown-check" class="plus-icon">+</label>
+        </div>
+            <input type="checkbox" id="services-dropdown-check" class="dropdown-check">
+         <div class="dropdown-content">
+          <ul>
+            <li><a href="home-renovation.html"><i class="fa-solid fa-screwdriver-wrench"></i>Home Renovations</a></li>
+                <li><a href="house-extension.html"><i class="fa-solid fa-screwdriver-wrench"></i>House Extension</a></li>
+                <li><a href="attic-conversion.html"><i class="fa-solid fa-screwdriver-wrench"></i>Attic Conversion</a></li>
+                <li><a href="design-planning.html"><i class="fa-solid fa-screwdriver-wrench"></i>Design and Planning</a></li>
+                <li><a href="floor-fitting.html"><i class="fa-solid fa-screwdriver-wrench"></i>Floor Fitting</a></li>
+                <li><a href="painting.html"><i class="fa-solid fa-screwdriver-wrench"></i>Painting and Decorating</a></li>
+             </ul>
+         </div>
+        </div>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html" class="active">Contact</a>  
+            <!-- Contact information in the hamburger navigation -->
+        <div class="hamburger-contact-info">
+            <p>Adamstown, <br>Co. Dublin, <br>Ireland</p>
+            <p><i class="fas fa-phone-alt"></i> <a href="tel:+353879932349">+353 87 99 32 349</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:info@novusconstruction.ie">info@novusconstruction.ie</a></p>
+        </div>
+        </div>
+      </div>   
+      <!-- end of nav -->
+      
+      <!-- Contact Us -->
+      <!-- Contact info -->
+      <div class="contact-page">
+        <div class="contact-section">
+            <h3 class="border-title">Contact Info</h3>
+            <div class="contact-info-item">
+                <h4 class="contact-title">Contact Number:</h4>
+                <div class="contact-detail">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <a href="tel:+353879932349">+353 87 99 32 349</a>
+                </div>
+            </div>
+        
+            <div class="contact-info-item">
+                <h4 class="contact-title">Mail Address:</h4>
+                <div class="contact-detail">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <a href="mailto:info@novusconstruction.ie">info@novusconstruction.ie</a>
+                </div>
+            </div>
+        
+            <div class="contact-info-item">
+                <h4 class="contact-title">Office Address:</h4>
+                <div class="contact-detail">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <p>Adamstown, co. Dublin, Ireland</p>
+                </div>
+            </div>
+        </div>                    
+          <!-- enf of Contact info -->
+          <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form class="contact-form" action="your-server-side-processing-script" method="POST" novalidate>
+                <h2>Let's get to know each other</h2>
+                <div class="form-row">
+                    <div class="form-field half">
+                        <input type="text" name="firstname" placeholder="First Name *" required>
+                    </div>
+                    <div class="form-field half">
+                        <input type="text" name="lastname" placeholder="Last Name *" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-field half">
+                        <input type="text" name="phone" placeholder="Phone Number">
+                    </div>
+                    <div class="form-field half">
+                        <input type="email" name="email" placeholder="Email *" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-title half">
+                        <span>Preferred Communication? *</span>
+                    </div>
+                    <div class="form-field half radio-container">
+                        <label class="radio-label">
+                            <input type="radio" name="preferred_comm" value="PHONE" required>
+                            <span class="custom-radio">PHONE</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="preferred_comm" value="EMAIL" required>
+                            <span class="custom-radio">EMAIL</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-title half">
+                        <span>How did you hear about us? *</span>
+                    </div>
+                    <div class="form-field half">
+                        <select name="foundhow" required>
+                            <option value="">SELECT: *</option>
+                            <option value="Family or Friend">Family or Friend</option>
+                            <option value="Internet Search">Internet Search</option>
+                            <option value="Social Media">Social Media</option>
+                            <option value="Architect Referral">Architect Referral</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-field full">
+                        <label for="message" class="message-title">Tell us about your project:</label>
+                        <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-field submit">
+                        <input type="submit" value="Submit" class="submit-button">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- end of Contact form -->
+    </div>
+    <!-- end of Contact Us -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <!-- Logo Column -->
+            <div class="footer-column" id="footer-logo-column">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Novus Construction logo"></a>
+                </div>
+                <p>Novus Construction, based in Ireland, offers expert construction services with a focus on quality and client satisfaction. Our skilled team ensures every project is a testament to our commitment to excellence.</p>
+            </div>
+            <!-- end of Logo Column -->
+
+            <!-- Our Services Column -->
+            <div class="footer-column" id="footer-services-column">
+                <h3 class="footer-titles">Our Services</h3>
+                <ul>
+                    <li><i class="fas fa-arrow-right"></i> <a href="home-renovation.html">Home Renovations</a></li>
+                    <li><i class="fas fa-arrow-right"></i> <a href="house-extension.html">House Extension</a></li>
+                    <li><i class="fas fa-arrow-right"></i> <a href="attic-conversion.html">Attic Conversion</a></li>
+                    <li><i class="fas fa-arrow-right"></i> <a href="design-planning.html">Design and Planning</a></li>
+                    <li><i class="fas fa-arrow-right"></i> <a href="floor-fitting.html">Floor Fitting</a></li>
+                    <li><i class="fas fa-arrow-right"></i> <a href="painting.html">Painting and Decorating</a></li>
+                </ul>
+            </div>
+            <!-- end of Our Services Column -->
+
+            <!-- Contact Column -->
+            <div class="footer-column" id="footer-contact-column">
+                <h3 class="footer-titles">Contact Now</h3>
+                <div class="footer-contact-info">
+                <p><i class="fa-solid fa-map"></i> Adamstown, co. Dublin, Ireland</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+353879932349">+353 87 99 32 349</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@novusconstruction.ie">info@novusconstruction.ie</a></p>
+            </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" class="social-icon">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" class="social-icon">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://ie.linkedin.com/" class="social-icon">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- end of Contact Column -->
+
+            <!-- Gallery Column -->
+<div class="footer-column" id="footer-gallery-column">
+    <h3 class="footer-titles">Our Gallery</h3>
+    <div class="gallery-grid">
+        <img src="images/gallery/dufferin-avenue/dufferin-avenue-1.jpg" alt="Dufferin Avenue project">
+        <img src="images/gallery/lower-dodder/lower-dodder-1.jpg" alt="Lower Dodder project">
+        <img src="images/gallery/oakfield-place/oakfield-place-1.jpg" alt="Oakfield Place project">
+        <img src="images/gallery/south-hill/south-hill-1.jpg" alt="South Hill project">
+        <img src="images/gallery/south-hill/south-hill-2.jpg" alt="South Hill project">
+        <img src="images/gallery/south-hill/south-hill-8.jpg" alt="South Hill project">
+        <img src="images/gallery/whitebeam-road/whitebeam-road-1.jpg" alt="Whitebeam Road project">
+        <img src="images/gallery/whitebeam-road/whitebeam-road-3.jpg" alt="Whitebeam Road project">
+        <img src="images/gallery/whitebeam-road/whitebeam-road-4.jpg" alt="Whitebeam Road project">
+    </div>
+  </div>
+</div>
+<!-- end of Gallery Column -->
+
+ <!-- Navigation Links -->
+ <div class="footer-nav">
+    <a href="index.html">Home</a>
+    <a href="about-us.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+    <!-- end of Navigation links -->
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            © Novus Construction 2023. All rights reserved.
+        </div>
+    </footer>
+  <!-- end of footer -->
+  <!-- Full Screen Modal -->
+<div id="fullscreenModal" class="fullscreen-modal">
+    <span class="fullscreen-close">&times;</span>
+    <button class="modal-arrow left-arrow"><i class="fas fa-chevron-left"></i></button>
+    <div class="fullscreen-modal-content">
+        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Fullscreen Image">
+    </div>
+    <button class="modal-arrow right-arrow"><i class="fas fa-chevron-right"></i></button>
+</div> 
+<script src="script.js"></script>
+</body>
+
+</html>
