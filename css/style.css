@@ -1767,10 +1767,19 @@ text-decoration: none;
 
 @media (max-width: 1200px) {
   .service-wrapper {
+    display: flex;
+    flex-direction: column;
     padding: 70px 10%;
   }
 
   .service-column {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+
+  .service-block {
     width: 48%;
   }
 }
@@ -1786,8 +1795,9 @@ text-decoration: none;
     padding: 50px 5%;
   }
 
-  .service-column {
+  .service-column, .service-block {
     width: 100%;
+    display: block;
   }
 }
 /* end of Services page */
