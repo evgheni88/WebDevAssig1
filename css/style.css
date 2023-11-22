@@ -462,6 +462,7 @@ background-attachment: scroll;
 .hero-image {
 padding-top: 60px;
 padding-left: 50px;
+position: relative;
 }
 
 .hero h1 {
