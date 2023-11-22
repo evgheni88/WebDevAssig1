@@ -472,6 +472,16 @@ font-size: 1.3em;
 .hero p {
 font-size: 14px;
   }
+
+.hero .btn {
+  width: 150px;
+  }
+
+.scroll-down-button {
+  position: absolute;  
+  bottom: 0;  
+  padding-top: 20px;  
+  }
 }
 
 @media (max-width: 768px) {
